@@ -145,7 +145,7 @@ class SupplyFanSpeedSensor(SmartySensor):
         super().__init__(
             name=f"{name} Supply Fan Speed",
             device_class=None,
-            unit_of_measurement=None,
+            unit_of_measurement='rpm',
             smarty=smarty,
         )
 
@@ -163,7 +163,7 @@ class ExtractFanSpeedSensor(SmartySensor):
         super().__init__(
             name=f"{name} Extract Fan Speed",
             device_class=None,
-            unit_of_measurement=None,
+            unit_of_measurement='rpm',
             smarty=smarty,
         )
 
